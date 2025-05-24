@@ -8,9 +8,9 @@ addonTable.HUNTER_FEIGN_DEATH = 5384;
 addonTable.CDs = {
 	[addonTable.UNKNOWN_CLASS] = {
 		-- // reviewed 2023/01/09
-		[336126] = 120,		-- // Медальон гладиатора https://www.wowhead.com/spell=336126
-		[42292] = 120,		-- // PvP-аксессуар https://www.wowhead.com/spell=42292
-		[283167] = 60,		-- // Адаптация https://www.wowhead.com/spell=283167
+		[336126] = 120,		-- // Gladiator's Medallion https://www.wowhead.com/spell=336126
+		[42292] = 120,		-- // PvP Trinket https://www.wowhead.com/spell=42292
+		[283167] = 60,		-- // Adaptation https://www.wowhead.com/spell=283167
 		[28730] = 120,		-- // Arcane Torrent https://www.wowhead.com/spell=28730
 		[50613] = 120,		-- // Arcane Torrent https://www.wowhead.com/spell=50613
 		[80483] = 120,		-- // Arcane Torrent https://www.wowhead.com/spell=80483
@@ -29,7 +29,19 @@ addonTable.CDs = {
 		[7744] = 120,		-- // Will of the Forsaken https://www.wowhead.com/spell=7744
 		[68992] = 120,		-- // Darkflight https://www.wowhead.com/spell=68992
 		[69041] = 90,		-- // Rocket Barrage https://www.wowhead.com/spell=69041
-		[265221] = 120,		-- // Fireblood https://www.wowhead.com/spell=265221/fireblood
+		[265221] = 120,		-- // Fireblood https://www.wowhead.com/spell=265221
+		[287712] = 150,		-- // Haymaker https://www.wowhead.com/spell=357214
+		[357214] = 180,		-- // Wing Buffet https://www.wowhead.com/spell=357214
+		[312411] = 90,		-- // Bag of Tricks https://www.wowhead.com/spell=312411
+		[260364] = 180,		-- // Arcane Pulse https://www.wowhead.com/spell=260364
+		[256948] = 180,		-- // Spatial Rift https://www.wowhead.com/spell=256948
+		[20549] = 90,		-- // War Stomp https://www.wowhead.com/spell=20549
+		[274738] = 120,		-- // Ancestral Call https://www.wowhead.com/spell=274738
+		[436344] = 120,		-- // Azerite Surge https://www.wowhead.com/spell=436344
+		[107079] = 120,		-- // Quaking Palm https://www.wowhead.com/spell=107079
+		[312916] = 150,		-- // Emergency Failsafe https://www.wowhead.com/spell=312916
+		[255654] = 120,		-- // Bull Rush https://www.wowhead.com/spell=255654
+		[255647] = 150,		-- // Light's Judgement https://www.wowhead.com/spell=255647
 	},
 	["HUNTER"] = {
 		-- // reviewed 2023/01/09
@@ -60,6 +72,8 @@ addonTable.CDs = {
 		[356719] = 60,					-- Chimaeral Sting https://www.wowhead.com/spell=356719
 		[53480] = 60,					-- Roar of Sacrifice https://www.wowhead.com/spell=53480
 		[212638] = 25,					-- Tracker's Net https://www.wowhead.com/spell=212638
+		[407028] = 45,					-- Sticky Tar Bomb https://www.wowhead.com/spell=407028
+		[212640] = 25,					-- Mending Bandage https://www.wowhead.com/spell=212640
 	},
 	["WARLOCK"] = {
 		-- // reviewed 2023/01/11
@@ -67,8 +81,7 @@ addonTable.CDs = {
 		[104773] = 135,		-- Unending Resolve https://www.wowhead.com/spell=104773
 		[19647] = 24,		-- Spell Lock https://www.wowhead.com/spell=19647
 		[132409] = 24,		-- Spell Lock (demon sacrificed) https://www.wowhead.com/spell=132409
-		[89766] = 30,		-- Axe Toss" https://www.wowhead.com/spell=89766
-		[115781] = 24,		-- Optical Blast https://www.wowhead.com/spell=115781
+		[89766] = 30,		-- Axe Toss https://www.wowhead.com/spell=89766
 		[325640] = 60,		-- Soul Rot https://www.wowhead.com/spell=325640/soul-rot
 		[80240] = 30,		-- Havoc https://www.wowhead.com/spell=80240/havoc
 		[265187] = 90,		-- Summon Demonic Tyrant https://www.wowhead.com/spell=265187
@@ -79,11 +92,9 @@ addonTable.CDs = {
 		[30283] = 45,		-- Shadowfury https://www.wowhead.com/spell=30283
 		[5484] = 40,		-- Howl of Terror https://www.wowhead.com/spell=5484
 		[212295] = 45,		-- Nether Ward https://www.wowhead.com/spell=212295
-		[353601] = 45,		-- Fel Obelisk https://www.wowhead.com/spell=353601
-		[221703] = 60,		-- Casting Circle https://www.wowhead.com/spell=221703
-		[212619] = 60,		-- Call Felhunter https://www.wowhead.com/spell=212619
 		[353294] = 60,		-- Shadow Rift https://www.wowhead.com/spell=353294
 		[212459] = 120,		-- Call Fel Lord https://www.wowhead.com/spell=212459
+		[212459] = 60,		-- Soul Rip https://www.wowhead.com/spell=410598
 	},
 	["MAGE"] = {
 		-- // reviewed 2023/01/12
@@ -114,7 +125,6 @@ addonTable.CDs = {
 		[389713] = 45,		-- Displacement https://www.wowhead.com/spell=389713
 		[353082] = 30,		-- Ring of Fire https://www.wowhead.com/spell=353082
 		[389794] = 45,		-- Snowdrift https://www.wowhead.com/spell=389794
-		[198111] = 45,		-- Temporal Shield https://www.wowhead.com/spell=198111
 		[352278] = 90,		-- Ice Wall https://www.wowhead.com/spell=352278
 		[198158] = 60,		-- Mass Invisibility https://www.wowhead.com/spell=198158
 		[198144] = 60,		-- Ice Form https://www.wowhead.com/spell=198144
@@ -205,7 +215,6 @@ addonTable.CDs = {
 		[116844] = 45,					-- Ring of Peace https://www.wowhead.com/spell=116844
 		[115310] = 90,					-- Revival https://www.wowhead.com/spell=115310
 		[115176] = 75,					-- Zen Meditation https://www.wowhead.com/spell=115176
-		[122278] = 120,					-- Dampen Harm https://www.wowhead.com/spell=122278
 		[116841] = 30,					-- Tiger's Lust https://www.wowhead.com/spell=116841
 		[116705] = 15,					-- Spear Hand Strike https://www.wowhead.com/spell=116705
 		[198898] = 30,					-- Song of Chi-Ji https://www.wowhead.com/spell=198898
@@ -219,7 +228,6 @@ addonTable.CDs = {
 	},
 	["PALADIN"] = {
 		-- // reviewed 2023/01/23
-		[210294] = 45,					-- Divine Favor https://www.wowhead.com/spell=210294
 		[642] = 210,					-- Divine Shield https://www.wowhead.com/spell=642
 		[31884] = 60,					-- Avenging Wrath https://www.wowhead.com/spell=31884
 		[853] = 60,					-- Hammer of Justice https://www.wowhead.com/spell=853
@@ -241,7 +249,6 @@ addonTable.CDs = {
 		[190784] = 45,					-- Divine Steed https://www.wowhead.com/spell=190784
 		[115750] = 90,					-- Blinding Light https://www.wowhead.com/spell=115750
 		[105809] = 180,					-- Holy Avenger https://www.wowhead.com/spell=105809
-		[205191] = 60,					-- Eye for an Eye https://www.wowhead.com/spell=205191
 		[389539] = 120,					-- Sentinel https://www.wowhead.com/spell=389539
 		[213644] = 8,					-- Cleanse Toxins https://www.wowhead.com/spell=213644
 		[210256] = 45,					-- Blessing of Sanctuary https://www.wowhead.com/spell=210256
@@ -252,7 +259,6 @@ addonTable.CDs = {
 	["PRIEST"] = {
 		-- // reviewed 2023/01/24
 		[32375] = 20,		-- Mass Dispel https://www.wowhead.com/spell=32375
-		[47536] = 90,		-- Rapture https://www.wowhead.com/spell=47536
 		[32379] = 20,		-- Shadow Word: Death https://www.wowhead.com/spell=32379
 		[19236] = 90,		-- Desperate Prayer https://www.wowhead.com/spell=19236
 		[8122] = 30,		-- Psychic Scream https://www.wowhead.com/spell=8122
@@ -288,7 +294,7 @@ addonTable.CDs = {
 		[213610] = 45,		-- Holy Ward https://www.wowhead.com/spell=213610
 		[228260] = 120,		-- Void Eruption https://www.wowhead.com/spell=228260
 		[391109] = 60,		-- Dark Ascension https://www.wowhead.com/spell=391109
-		[586] = 25,				-- Fade https://www.wowhead.com/spell=586
+		[586] = 25,		-- Fade https://www.wowhead.com/spell=586
 	},
 	["ROGUE"] = {
 		-- // reviewed 2023/01/30
@@ -320,7 +326,6 @@ addonTable.CDs = {
 		[196884] = 30,		-- Feral Lunge https://www.wowhead.com/spell=196884
 		[198838] = 57,		-- Earthen Wall Totem https://www.wowhead.com/spell=198838
 		[326059] = 45,		-- Primordial Wave https://www.wowhead.com/spell=375982
-		[324386] = 60,		-- Vesper Totem https://www.wowhead.com/spell=324386/vesper-totem
 		[51514] = 20,		-- Hex https://www.wowhead.com/spell=51514
 		[210873] = 20,		-- Hex https://www.wowhead.com/spell=210873
 		[211004] = 20,		-- Hex https://www.wowhead.com/spell=211004
@@ -362,7 +367,6 @@ addonTable.CDs = {
 		[51490] = 25,		-- Thunderstorm https://www.wowhead.com/spell=51490
 		[305483] = 45,		-- Lightning Lasso https://www.wowhead.com/spell=305483
 		[58875] = 52,		-- Spirit Walk https://www.wowhead.com/spell=58875
-		[383019] = 57,		-- Tranquil Air Totem https://www.wowhead.com/spell=383019
 		[204336] = 24,		-- Grounding Totem https://www.wowhead.com/spell=204336
 		[204331] = 42,		-- Counterstrike Totem https://www.wowhead.com/spell=204331
 		[204366] = 45,		-- Thundercharge https://www.wowhead.com/spell=204366
